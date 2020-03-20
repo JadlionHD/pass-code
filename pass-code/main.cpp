@@ -5,26 +5,26 @@ using namespace std;
 int main()
 {
     string pass;
-    string password = "HelloWorld";
+    string input = "HelloWorld";
     cout << "pass-code example making a password" << endl;
     cout << "Please enter a pass to access this : ";
     cin >> pass;
 
-    if(pass == password) {
+    if(pass == input) {
         cout << "hey that's right password, you made it!" << endl;
     } else
     {
         cout << "Wrong Password, 3x Retry : ";
         cin >> pass;
     }
-    if (pass == password) {
+    if (pass == injput) {
         cout << "hey that's right password, you made it!" << endl;
     } else
     {
         cout << "Wrong Password, 2x Retry : ";
         cin >> pass;
     }
-    if (pass == password) {
+    if (pass == input) {
         cout << "hey that's right password, you made it!" << endl;
     } else
     {
