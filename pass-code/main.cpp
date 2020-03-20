@@ -17,7 +17,7 @@ int main()
         cout << "Wrong Password, 3x Retry : ";
         cin >> pass;
     }
-    if (pass == injput) {
+    if (pass == input) {
         cout << "hey that's right password, you made it!" << endl;
     } else
     {
